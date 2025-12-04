@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,500;1,500&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:Arial, Helvetica, sans-serif;
+
+}
+body{
+    background: #fffdf7;
+}
+
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+
+
+}
+a:hover{
+    color: gold;
+}
+.cart-icons:hover{
+color: black;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+.between{
+    justify-content: space-between;
+}
+.gap-3{
+    gap: 3rem;
+}
+.wrapper{
+        max-width: 1400px;
+        margin: auto;
+        padding-inline: 1.5rem;
+
+}
+.navbar{
+    min-height: 14vh;
+
+
+
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: gold;
+    text-decoration: none;
+}
+.logo:hover{
+    color: gold;
+}
+.btn{
+    display: inline-block;
+    padding: .9rem 2rem;
+    background-color: gold;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 2px 1px;
+transition: .3s ease-in-out;
+}
+.btn:hover{
+    background: linear-gradient(45deg, #ffcc00, #d4a017, #b8860b);
+    color: #000;
+}
+.gap-2{
+    gap: 3rem;
+}
+.cart-icons{
+    color: black;
+    font-size: 1.3rem;
+    position: relative;
+}
+.cart-icons .cart-value{
+    position: absolute;
+    font-size: .85rem;
+    top: 50%;
+    right: -10px;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background-color: gold;
+    text-align: center;
+    line-height: 20px;
+}
+.cart-value{
+    color: white;
+}
+
+
+.hero-section{
+    min-height: calc(100vh -14vh);
+}
+
+
+.box{
+    display: flex;
+    width: 100%;
+}
+.box1{
+width: 50%;
+height: 500px;
+margin-top: 80px;
+}
+.box1 .btn{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.box2{
+    width: 50%;
+    height: 600px;
+
+}
+.box2 img{
+    width: 85%;
+    height: 550px;
+    margin-top: -30px;
+}
+span{
+    color: gold;
+}
+.content{
+ margin-top: 30px;
+    margin-left: 20px;
+}
+.content h1{
+    line-height: 100px;
+    font-size: 5.6vw;
+    margin-left: 20px;
+}
+.content p{
+    margin-top: 20px;
+    font-size: 1.25rem;
+    color: gray;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.para{
+    margin-block: 2rem;
+    max-width: 550px;
+}
+.social-icon{
+    
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 3rem;
+    gap: 2rem;
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+}
+.social-icon .fa-brands{
+    margin-left: 24px;
+}
+
+.p-top{
+    padding-top: 10rem;
+}
+.text-center{
+    text-align: center;
+}
+h5{
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: gold;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    color: black;
+}
+h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: black;
+}
+.service-card{
+    flex: 1;
+    flex-basis: 300;
+}
+.service-card h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+
+
+.contanier-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contanier-card .card{
+    width: 270px;
+    height: 380px;
+    background: white;
+    border: .1rem solid gold;
+    padding: 0 1rem 2rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 
+    rgba(0, 0, 0, 0.05) 8px 8px 8px,
+     rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+     
+}
+.card img{
+    width: 15rem;
+    position: relative;
+    filter: drop-shadow(
+     rgba(0,0,0,0.2) 0 10px 10px
+    );
+}
+.contanier-card .card h4{
+    align-items: center;
+    text-align: center;
+}
+.contanier-card .card button{
+    text-decoration: none;
+    background-color: gold;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+.contanier-card .card button:hover{
+        background: linear-gradient(45deg, #ffcc00, #d4a017, #b8860b);
+    color: #000;
+        box-shadow: 0 0 12px #ffcc00;
+
+
+}
+.contanier-card .card .price{
+        margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: rgb(253, 216, 8);
+
+}
+.contanier-card .card h4{
+    font-size: 1.6rem;
+}
+.row{
+    display: flex;
+    width:100%;
+    margin-top: 45px;
+    justify-content: center;
+}
+.row .col1{
+width: 45%;
+height: 300px;
+}
+.row .col2{
+width: 45%;
+height: 300px;
+margin-top: 80px;
+
+}
+.col1 img{
+    width: 85%;
+    height: 550px;
+}
+.col2 .content{
+    margin-bottom:10px ;
+}
+.review-container{
+    width: 650px;
+    max-width: 100%;
+
+}
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+.profile{
+     width: 4rem;
+     aspect-ratio: 1;
+     border-radius: 100vw;
+     overflow: hidden;
+
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fa-star{
+    color: gold;
+}
+.star{
+    margin-top: .5rem;
+}
+
+.arrow{
+    width: 2.5rem;
+    aspect-ratio: 1;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 100vw;
+}
+.arrow:hover{
+    color: black;
+}
+
+.app-container{
+    background-color: rgba(237, 183, 83, 0.548);
+    margin-top: 25vh;
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+    height: 600px;
+}
+.app-container img{
+    width: 25rem;
+}
+ .app-container .content h5{
+    color: white;
+ }
+
+.app-container .content .btn{
+    width: 160px;
+    
+}
+
+.m-auto{
+    margin: auto;
+    color: gray;
+}
+.input-container{
+    width: 43rem;
+    max-width: 100%;
+    background: white;
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+input[type="email"]{
+    flex: 1;
+    height: 7vh;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+input[type="email"]:focus{
+    outline: none;
+}
+
+ 
+/* Whole Section */
+.top-notch {
+    text-align: center;
+    padding: 80px 20px;
+    background: white;
+    color: white;
+}
+
+.top-notch h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display";
+}
+
+.top-notch p {
+    max-width: 550px;
+    margin: 0 auto 50px;
+    line-height: 1.6;
+    color: gray;
+    font-family: "Poppins";
+}
+
+/* Cards Layout */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+    width: 280px;
+    text-align: center;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+.second-card{
+    margin-top: 100px;
+}
+/* Title under image */
+.card h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: "Playfair Display";
+}
+
+/* View Menu Link */
+.card a {
+    display: block;
+    margin-top: 5px;
+    color: gold;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer {
+    background: #fdeec8;
+    padding: 60px 40px;
+    font-family: Arial, sans-serif;
+    margin-top: 12rem;
+}
+
+.footers-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.footer-col{
+    margin-right: 70px;
+}
+.footer-col h2.brand {
+    color: #e2a100;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-col h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #222;
+}
+
+.footer-col p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* List */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    color: #444;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-col ul li:hover {
+    color: #e2a100;
+}
+
+/* Icons */
+.footer-icons i {
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 13px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+    width: 45px;
+    height: 45px;
+}
+
+.footer-icons i:hover {
+    background: #e2a100;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

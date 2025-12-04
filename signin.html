@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EasyTravel</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+      
+  <style>
+
+
+    .navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(199, 191, 191, 0.4);
+
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: gold;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.signin-btn {
+  background-color: #e0005a;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.signin-btn:hover {
+  background-color: green;
+  color: white;
+}
+    .signin-card {
+      max-width: 400px;
+      margin: 80px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+      background-color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+
+      <nav class="navbar">
+    <div class="logo">
+      <h2>Foodie</h2>
+    </div>
+
+    <ul class="nav-links">
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="index.html">Menu</a></li>
+      <li><a class="nav-link" href="index.html">Service</a></li>
+      <li><a class="nav-link" href="index.html">About Us </a></li>
+      <li><a class="nav-link" href="Contact.html">Contact</a></li>
+      </ul>
+  </nav>
+
+
+<div class="signin-card">
+  <h3 class="text-center mb-4">Sign In</h3>
+  <form>
+    <!-- Email input -->
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+
+    <!-- Password input -->
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter your password">
+    </div>
+
+    <!-- Remember me checkbox -->
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="remember">
+      <label class="form-check-label" for="remember">Remember me</label>
+    </div>
+
+    <!-- Submit button -->
+    <div class="d-grid">
+      <button type="submit" class="btn btn-primary">Sign In</button>
+    </div>
+
+    <!-- Forgot password -->
+    <p class="mt-3 text-center">
+      <a href="#">Forgot password?</a>
+    </p>
+  </form>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

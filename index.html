@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex between wrapper">
+            <a href="#" class="logo">foodie</a>
+            <ul class="navlist flex gap-3">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#review">Reviews</a>
+                </li>
+
+                <li>
+                    <a href="#footer">About us</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="desktop-action flex gap-2">
+                <a href="#" class="cart-icons">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-value">0</span>
+                </a>
+                <a href="signin.html" class="btn">
+                    Sign in
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="box">
+        <div class="box1">
+            <div class="content">
+                <h1>
+                    Enjoy your <br>Delicious
+                    <span>Food</span>
+                </h1>
+                <p>We will fill your tummy with delicious <br>food with fast delivery.</p>
+                <div>
+                    <a href="#" class="btn flex gap-2">Order now</a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #1877F2;"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-square-twitter fa-2xl" style="color: #55acee;"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-instagram fa-2xl" style=" color: #F56040;"></i>
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #07f217;"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="box2">
+            <img src="img/delivery-boy.png" alt="">
+        </div>
+
+    </div>
+
+    <section>
+        <div class="wrapper p-top">
+            <div class="text-center">
+                <h5>Our Services</h5>
+                <h2>How does it work</h2>
+            </div>
+
+            <div class="flex text-center mt-4">
+                <div class="service-card">
+                    <div class="img-container">
+                        <img src="img/easy-to-order.png" alt="">
+                    </div>
+                    <h3>
+                        Easy to Order
+                    </h3>
+                    <p>
+                        You only need few steps in ordering food.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="img-container">
+                        <img src="img/fast-delivery.png" alt="">
+                    </div>
+                    <h3>
+                        Fast Delivery
+                    </h3>
+                    <p>
+                        Delivery that is always ontime even faster.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="img-container">
+                        <img src="img/best-quality.png" alt="">
+                    </div>
+                    <h3>
+                        Best Quality
+                    </h3>
+                    <p>
+                        Not only fast for us in quality is aslo number one.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper p-top">
+        <div class="text-center" id="menu">
+            <h5>Our Menu</h5>
+            <h2>The Most Popular</h2>
+        </div>
+    </div>
+
+    <div class="contanier-card">
+        <div class="card">
+            <div class="img">
+                <img src="img/burger.png" alt="">
+            </div>
+            <h4>Double Bee Burger</h4>
+            <div class="price">$7.50</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/pizza.png" alt="">
+            </div>
+            <h4>Veggie Pizza</h4>
+            <div class="price">$9.67</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/fried-chicken.png" alt="">
+            </div>
+            <h4>Chicken Roll</h4>
+            <div class="price">$10.99</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/chicken-roll.png" alt="">
+            </div>
+            <h4>Chicken Roll</h4>
+            <div class="price">$13.45</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/sandwich.png" alt="">
+            </div>
+            <h4>Sub Sandwish</h4>
+            <div class="price">$6.99</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/lasagna.png" alt="">
+            </div>
+            <h4>chicken Lasagna</h4>
+            <div class="price">$16.45</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/spaghetti.png" alt="">
+            </div>
+            <h4>Itallian Apaghetti</h4>
+            <div class="price">$7.65</div>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <div class="img">
+                <img src="img/spring-roll.png" alt="">
+            </div>
+            <h4>Spring Roll</h4>
+            <div class="price">$9.31</div>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+
+
+<section class="top-notch">
+    <h2>We Offer Top Notch</h2>
+    <p>Food brings comfort and joy, from spicy biryani and crispy fries to juicy burgers and fresh salads. Sweet desserts like ice cream, 
+        brownies, and donuts make every meal feel complete and satisfying.</p>
+
+    <div class="cards">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="pattern"></div>
+            <img src="img/service-1.jpg" alt="Breakfast">
+            <h3>Breakfast</h3>
+            <a href="#">VIEW MENU</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card second-card">
+            <div class="pattern"></div>
+            <img src="img/service-2.jpg" alt="Appetizers">
+            <h3>Appetizers</h3>
+           <a href="#">VIEW MENU</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="pattern"></div>
+            <img src="img/service-3.jpg" alt="Drinks">
+            <h3>Drinks</h3>
+            <a href="#">VIEW MENU</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <div class="row" id="review">
+        <div class="col1">
+            <div class="img">
+                <img src="img/delivery-boy-with-phone.png" alt="">
+            </div>
+        </div>
+        <div class="col2">
+            <div class="content">
+                <h5>Our Reviews</h5>
+                <h2>What They Say?</h2>
+                <!-- Swiper -->
+                <div class="review-container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper mt-4">
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile">
+                                        <img src="img/profile1.jpeg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Aftab baloch</h4>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    The pasta was creamy, flavorful, and cooked perfectly. The sauce had a rich taste,
+                                    and the garlic bread added a great crunch. Overall, a satisfying and memorable meal.
+                                </p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile">
+                                        <img src="img/profile2.jpeg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Aftab baloch</h4>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    The burger was juicy with fresh toppings and a soft bun. The fries were crispy and
+                                    hot. Excellent presentation, quick service, and a delicious flavor that made the
+                                    meal truly enjoyable.
+                                </p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile">
+                                        <img src="img/profile3.jpeg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Aftab baloch</h4>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    The pizza had a perfect crust, stretchy cheese, and well-balanced toppings. Each
+                                    bite was full of flavor. The freshness, aroma, and overall quality made it a
+                                    fantastic and enjoyable food experience.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="flex between">
+                            <a href="#" class="arrow" id="prev">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </a>
+                            <a href="#" class="arrow" id="next">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="wrapper p-top ">
+            <div class="app-container flex gap-3">
+            <div class="app-img">
+                <img src="img/mobile-app.png" alt="">
+            </div>
+            <div class="content">
+                <h5>Our Application</h5>
+                <h2>Simple Way<br> to Order Your Food</h2>
+                <p class="para">Discover Food wherever and whenever<br> get your food delivery quickly</p>
+                <a href="https://www.dominos.com.pk/" target="_blank" class="btn">Get the App</a>
+
+            </div>
+            </div>
+        </div>
+       
+      <div class="wrapper p-top">
+        <div class="text-center">
+        <h5>Our Subscribe</h5>
+        <h2>Subscribe to Our Newsletter</h2>
+        <p class="para m-auto">
+            We recommend you to Subscribe our newspaper, drop your email<br> below to get daily update about us.
+        </p>
+        <label class="input-container flex m-auto">
+            <input type="email" name="email" id="email"
+            placeholder="Enter Your Email Address" autocomplete="off">
+            <a href="#" class="btn">Subscribe</a>
+        </label>
+      </div>
+    </div>
+
+   <!--footer-->
+
+<footer class="footer" id="footer">
+
+    <div class="footers-container">
+
+        <!-- Column 1 -->
+        <div class="footer-col">
+            <h2 class="brand">Foodie.</h2>
+            <p>
+                We will fill your tummy <br>
+                with delicious food with fast delivery.
+            </p>
+
+            <div class="footer-icons">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-col">
+            <h3>Our Menu</h3>
+            <ul>
+                <li>Special</li>
+                <li>Popular</li>
+                <li>Categories</li>
+            </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-col">
+            <h3>Company</h3>
+            <ul>
+                <li>Why Foodie</li>
+                <li>Partner with us</li>
+                <li>About us</li>
+                <li>FAQ's</li>
+            </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-col">
+            <h3>Support</h3>
+            <ul>
+                <li>Account</li>
+                <li>Support center</li>
+                <li>Feedback</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
+
+   <!--footer-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</body>
+
+</html>
