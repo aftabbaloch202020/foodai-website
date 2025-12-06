@@ -502,6 +502,7 @@ input[type="email"]:focus{
 
 .footer-col ul li:hover {
     color: #e2a100;
+    margin-left: 5px;
 }
 
 /* Icons */
@@ -529,6 +530,7 @@ input[type="email"]:focus{
         gap: 30px;
     }
 }
+
 
 
 
